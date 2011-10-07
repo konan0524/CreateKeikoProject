@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.android.surfaceview"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="SurfaceView Example">
+        <activity android:name=".Main"
+              android:theme="@android:style/Theme.Wallpaper"
+              android:label="SurfaceView Example">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hello" android:label="Hello SurfaceView" />
+        <activity android:name=".Click" android:label="Click SurfaceView" />
+        <activity android:name=".Offscreen" android:label="Offscreen SurfaceView" />
+        <activity android:name=".NoOffscreen" android:label="No-offscreen SurfaceView" />
+        <activity android:name=".AntiAlias" android:label="Anti-Alias SurfaceView" />
+        <activity android:name=".SaveAndRestore" android:label="Save and Restore" />
+        <activity android:name=".KeyEventSample" android:label="KeyEvent SurfaceView" />
+        <activity android:name=".TouchAndTrackballEvent" android:label="Touch and Trackball Event SurfaceView" />
+        <activity android:name=".GameSampleWithSurfaceView" android:label="Game Sample SurfaceView" />
+        <activity android:name=".GameSampleWithView" android:label="Game Sample View" />
+        <activity android:name=".GameSampleWithBitmapDrawable" android:label="GameSample With BitmapDrawable" />
+        <activity android:name=".Transparent" android:label="Transparent SurfaceView" android:theme="@style/Theme.Translucent" />
+        <activity android:name=".TranslucentView" android:label="Translucent View" android:theme="@style/Theme.Translucent" />
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+</manifest>
