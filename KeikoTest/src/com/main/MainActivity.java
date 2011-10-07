@@ -32,11 +32,13 @@ public class MainActivity extends Activity {
 		// String resultJson = CloudAccessManager.testEcho(null);
 		// text.setText(resultJson);
 
-		Intent intent = new Intent(this, Main2Activity.class);
+		Intent intent = new Intent(this, Main2Actおivity.class);
 		intent.putExtra("com.suddenAngerSystem.displayString", "a");
 		Log.i("test", "test");
 		startActivity(intent);
 		Log.i("test2", "test2");
+		//pulltestdayo
+		//conflictokosimasenyouni;
 
 	}
 }
